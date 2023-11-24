@@ -1,0 +1,45 @@
+.voiceActorInfo .homeLink {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    box-shadow: inset 0 0 10px black;
+    border: 2px solid white;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.voiceActorInfo {
+    color: white;
+    text-shadow: 0 0 10px purple,
+    0 0 20px purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.peopleAbout {
+    width: 1000px;
+}
+
+.voices {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 2rem 0 0 1rem;
+}
+
+.voices .voicesCharacter {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.voices .voicesCharacter img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+}
